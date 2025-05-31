@@ -9,11 +9,11 @@ const Navbar = () => {
   return (
     <>
     <header>
-      <div className="sticky top-0 z-50 bg-gradient-to-r from-slate-700 to-slate-950 shadow-md rounded flex justify-between items-center py-4 px-4">
-        <h1 className="text-gray-100 font-bold select-none cursor-pointer">Portfolio</h1>
+      <div className="relative top-[2vmax] z-50 shadow-[0_0_20px_5px_rgb(77,0,109)]  p-4 rounded-full flex justify-between items-center px-[2vmax] py-[2.5vmax] mx-[1.5vmax] mb-[vh] bg-transparent">
+        <h1 className="text-gray-100 font-bold select-none cursor-pointer text-[2.3vmax]">Portfolio</h1>
 
         {/* Menu */}
-        <ul className="flex gap-2 lg:gap-8 text-white font-bold">
+        <ul className="flex gap-5 lg:gap-8 text-white font-bold text-[1.9vmax]">
           <li><Link href="/#main">Home</Link></li>
           <li><Link href="/#about">About</Link></li>
           <li><Link href="/#project">Project</Link></li>

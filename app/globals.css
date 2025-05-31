@@ -1,14 +1,10 @@
 *{
   margin: 0;
-  padding: 0;;
+  padding: 0;
+  border: 2px solid red;
 }
 html{
   scroll-behavior: smooth;
   font-family: "Sansita", Sans-Serif;
 }
-.text-[6vmax]{
-  font-size: 6vmax;
-}
-.text-gray-100{
-  color: #eae5ec;
-}
+

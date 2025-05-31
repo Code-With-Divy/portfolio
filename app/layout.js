@@ -26,7 +26,7 @@ return (
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body className="select-none">
-  <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
+  <div className="min-h-screen bg-[#12001a] text-white">
   <Navbar />
     {children}
   </div>
