@@ -6,6 +6,7 @@ export default function Home() {
     <>
     {/*Hero section*/}
     <Hero/>
+    {/*About section*/}
     <About/>
    </>
         );

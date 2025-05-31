@@ -8,9 +8,9 @@ return (
   {
   // text section
   }
-    <section className='flex w-[100vw] flex-wrap gap-12'>
+    <section id='main' className='flex font-extrabold w-[100vw] flex-wrap gap-12'>
     <div className="text-[13vmin] leading-none text-gray-100 font-bold mt-[7vmax] ml-3.5 sansita-regular sm:w-[50vw] ml-[3.5vw]">
-    <div className="text-[7vmin] text-gray-200">
+    <div className="text-[7vmin] font-extrabold text-gray-200">
 I love,
   </div>
       <h1></h1>
