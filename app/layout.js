@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "../styles/fonts.css";
 import Navbar from '../components/Navbar';
+import Eruda from './eruda-client'
 
 const geistSans = Geist({
 variable: "--font-geist-sans",
@@ -28,6 +29,7 @@ return (
 <body className="select-none">
   <div className="min-h-screen bg-[#12001a] text-white">
   <Navbar />
+  <Eruda/>
     {children}
   </div>
 </body>
