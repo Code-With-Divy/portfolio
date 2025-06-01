@@ -9,7 +9,7 @@ return (
   // text section
   }
     <section id='main' className='flex font-extrabold w-[100vw] flex-wrap gap-12'>
-    <div className="text-[13vmin] leading-none text-gray-100 font-bold mt-[7vmax] ml-3.5 sansita-regular sm:w-[50vw] ml-[3.5vw]">
+    <div className="text-[13vmin] leading-none text-gray-100 font-bold mt-[9vmax] sm:mt-[12vw] sansita-regular sm:w-[50vw] ml-[6vw] sm:ml-[3.5vw]">
     <div className="text-[7vmin] font-extrabold text-gray-200">
 I love,
   </div>
@@ -31,10 +31,10 @@ I love,
     <span className="bg-gradient-to-r from-white via-[#a912ce] via-[#f72baf] via-[#900cac] to-[#ac0c8f] text-transparent bg-clip-text">Experiences.</span>
   </div>
     {/*Image section */}
-<div className="relative sm:w-[30vmax] sm:h-[30vmax] mx-auto sm:mt-[9vw]">
+<div className="relative sm:w-[40vmax] sm:h-[30vmax] mx-auto sm:mt-[12vw]">
   <div className="absolute inset-0 blur-3xl opacity-50 z-0 bg-[url('/bg/blur.svg')] bg-no-repeat bg-cover bg-center" />
   <img
-    className="relative z-10 w-[80vw] h-[] "
+    className="relative z-10 w-[80vw] "
     src="/icons/undraw_firmware_3fxd.svg"
   />
 </div>
